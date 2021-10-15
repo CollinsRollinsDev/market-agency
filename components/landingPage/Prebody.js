@@ -3,6 +3,7 @@ import styles from './PreBody.module.css';
 
 const Prebody = () => {
     return (
+        
         <section className={styles.topLayout}>
             <div className={styles.bodyImage}></div>
             <div className={styles.leftSide}>
