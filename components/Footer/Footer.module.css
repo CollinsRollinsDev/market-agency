@@ -1,0 +1,59 @@
+.container{
+    height: auto;
+    width: 100%;
+    background-color: #121212;
+    padding: 1% 2%;
+    color: white;
+}
+.first{
+    height: auto;
+    width: 100%;
+    font-size: 13px;
+}
+.head{
+    font-size: 16px;
+    width: 100%;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.first div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.first div:active{
+    opacity: 0;
+}
+.second{
+    height: auto;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.head2{
+    font-size: 14px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.second .shareBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.shareBox div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.shareBox div svg:hover{
+    cursor: pointer;
+}
+.shareBox div svg:active{
+    opacity: 0;
+}

@@ -1,0 +1,50 @@
+.container{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.head{
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+.cover{
+    height: 200px;
+    width: 50%;
+    background-color: transparent;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black, -2px -2px 3px black;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.texts{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: bold;
+}
+.imgBk{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 5;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}

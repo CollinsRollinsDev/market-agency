@@ -1,0 +1,42 @@
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(15, 15, 54);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    align-items: center;
+  }
+
+  .left{
+      cursor: pointer;
+      font-size: 25px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      position: relative;
+      /* background-color: red; */
+      height: 40px;
+      width: 40px;
+      border-radius: 100%;
+      overflow: hidden;
+      border-color: transparent;
+  }
+  .center{
+    cursor: pointer;
+    font-size: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.right{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    fill: white;
+}
+.right svg{
+    cursor: pointer;
+}
+.right svg:active{
+    opacity: 0;
+}
+

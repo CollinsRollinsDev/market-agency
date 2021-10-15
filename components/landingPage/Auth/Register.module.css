@@ -1,0 +1,65 @@
+.container{
+    height: auto;
+    background-color: transparent;
+    width: 100%;
+}
+.RegisterHolder{
+    min-height: 300px;
+    width: 80%;
+    margin-left: 10%;
+    padding: 5% 0;
+    background-color: rgba(29, 29, 172, 0.596);
+    margin-top: 100px; 
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.RegisterHolder form {
+    display: flex;
+    row-gap: 20px;
+    height: auto;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.RegisterHolder form input{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    outline: none;
+    border-color: transparent;
+}
+.RegisterHolder form button{
+    width: 70%;
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: transparent;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgba(20, 20, 172, 0.89);
+    color: white;
+}
+
+.RegisterHolder form button:hover{
+    opacity: 0.8;
+}
+.RegisterHolder form button:active{
+    opacity: 0;
+}
+.sub{
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 10px;
+}
+.sub p{
+    cursor: pointer;
+}
