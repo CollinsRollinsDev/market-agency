@@ -5,6 +5,7 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 
 const Register = () => {
+    
     const router = useRouter();
     const [fullName, setFullName] = useState();
     const [emailAddress, setEmailAddress] = useState()
