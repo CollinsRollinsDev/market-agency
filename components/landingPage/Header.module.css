@@ -111,8 +111,8 @@
 }
 .desktopRight{
     display: flex;
-    width: 20%;
-    margin-left: 50%;
+    width: 10%;
+    margin-left: 60%;
     justify-content: space-between;
     align-items: center;
     font-weight: 600;
@@ -120,6 +120,9 @@
 }
 .desktopRight div{
     cursor: pointer;
+}
+.desktopRight div:hover{
+    color: blue;
 }
 .desktopRight div:active{
     opacity: 0;

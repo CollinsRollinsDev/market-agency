@@ -23,7 +23,7 @@ const Prebody = () => {
                     </div>
                 </div>
                 <div className={styles.second}>
-                    SEO and DIGITAL MAFRKETING AGENCY
+                    SEO and DIGITAL MARKETING AGENCY
                 </div>
                 <div className={styles.third}>
                     <button className={styles.btn}>
