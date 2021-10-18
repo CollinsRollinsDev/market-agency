@@ -6,7 +6,7 @@
 .topLayout .bodyImage{
     height: 100%;
     width: 100%;
-    background-image: url("/logo.jpg");
+    background-image: url("/logo2.jpg");
      background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
@@ -47,11 +47,11 @@
 .first div{
     height: 60px;
     width: 100%;
-    background-color: rgb(222, 222, 223);
+    background-color: rgb(16, 16, 194);
     padding: 2% 2%;
     box-shadow: 2px 2px 5px black;
     border-radius: 10px;
-    /* color: rgb(216, 213, 213); */
+    color: white;
     font-weight: 600;
     font-family: serif;
     display: flex;
@@ -70,7 +70,7 @@
     justify-content: space-around;
     align-items: center;
     color: rgb(224, 222, 222);
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 2px 2px 5px black, -2px -2px 5px black;
     font-size: 31px;
     padding: 0 2%;
     text-align: center;
@@ -111,7 +111,7 @@
         display: none;
         height: 100%;
         width: 100%;
-        background-image: url("/logo.jpg");
+        background-image: url("/logo2.jpg");
         background-position: center !important;
       background-size: cover !important;
       background-repeat: no-repeat !important;

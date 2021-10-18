@@ -26,13 +26,15 @@
     cursor: pointer;
     font-size: 28px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(151, 2, 2), -2px -2px 5px rgb(0, 0, 197);
     font-weight: bold;
 }
 .right{
     cursor: pointer;
     font-size: 18px;
     font-weight: 700;
-    fill: white;
+    fill: black;
 }
 .right svg{
     cursor: pointer;
