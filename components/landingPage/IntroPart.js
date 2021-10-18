@@ -1,4 +1,4 @@
-import styles from './IntroPart.module.css'
+import styles from "./IntroPart.module.css";
 import Image from "next/image";
 
 const IntroPart = () => {
@@ -6,64 +6,67 @@ const IntroPart = () => {
     <section className={styles.container}>
       <section className={styles.boxes}>
         <div className={styles.circled}>
-        <Image
-          src="/productivity.svg"
-          alt="Picture of the author"
-          // width={500}
-          // height={500}
-          layout="fill"
-        />
+          <Image
+            src="/productivity.svg"
+            alt="Picture of the author"
+            // width={500}
+            // height={500}
+            layout="fill"
+          />
         </div>
         <div className={styles.text}>
-          We are a legalized digital company to drive out the marketting agency
-          to place it all from the bla bla bla.
+          We work side-by-side with our partners at every stage of growth to
+          venture into new areas, reimagine existing offerings, and develop
+          cultures that thrive
         </div>
       </section>
       <section className={styles.boxes}>
-      <div className={styles.circled}>
-      <Image
-          src="/business.svg"
-          alt="Picture of the author"
-          width={90}
-          height={90}
-          layout="fill"
-        />
-      </div>
+        <div className={styles.circled}>
+          <Image
+            src="/business.svg"
+            alt="Picture of the author"
+            width={90}
+            height={90}
+            layout="fill"
+          />
+        </div>
         <div className={styles.text}>
-          We are a legalized digital company to drive out the marketting agency
-          to place it all from the bla bla bla.
+          We focus on understanding your brand, audience and business objectives
+          to inform a digital strategy that is geared toward success.
         </div>
       </section>
-            <section className={styles.boxes}>
-            <div className={styles.circled}>
-            <Image
-                src="/game.svg"
-                alt="Picture of the author"
-                width={90}
-                height={90}
-                layout="fill"
-        />
-            </div>
-        <div className={styles.text}>
-          We are a legalized digital company to drive out the marketting agency
-          to place it all from the bla bla bla.
+      <section className={styles.boxes}>
+        <div className={styles.circled}>
+          <Image
+            src="/game.svg"
+            alt="Picture of the author"
+            width={90}
+            height={90}
+            layout="fill"
+          />
         </div>
-            </section>
-            <section className={styles.boxes}>
-            <div className={styles.circled}>
-            <Image
-              src="/wallet.svg"
-              alt="Picture of the author"
-              width={90}
-              height={90}
-              layout="fill"
-        />
-            </div>
         <div className={styles.text}>
-          We are a legalized digital company to drive out the marketting agency
-          to place it all from the bla bla bla.
+          One of our main focus is to make sure we are delivering content that
+          people and our customers love, That is our primary priorty.
         </div>
-            </section>
+      </section>
+      <section className={styles.boxes}>
+        <div className={styles.circled}>
+          <Image
+            src="/wallet.svg"
+            alt="Picture of the author"
+            width={90}
+            height={90}
+            layout="fill"
+          />
+        </div>
+        <div className={styles.text}>
+          We’re honest folk that believe in hard work and building lasting
+          relationships. We enjoy making companies look better with great design
+          and go the extra mile to provide a service that we would like to
+          experience ourselves..
+        </div>
+      </section>
     </section>
   );
 };
