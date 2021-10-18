@@ -15,7 +15,7 @@ const Prebody = () => {
                     </div>
                     <div>
                         <p>Better Statictics</p>
-                        <p>We provide the best</p>
+                        <p>Excel at what we do</p>
                     </div>
                     <div>
                         <p>Better Overview</p>
