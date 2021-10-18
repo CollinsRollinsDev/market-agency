@@ -1,12 +1,13 @@
 .header{
     height: 50px;
     width: 100%;
-    background-color: rgb(15, 15, 54);
-    color: white;
+    /* background-color: rgb(15, 15, 54); */
     display: flex;
     justify-content: space-between;
     padding: 0 2%;
     align-items: center;
+    box-shadow: 3px 3px 7px rgb(18, 2, 153);
+    margin-bottom: 8px;
   }
 
   .left{
@@ -59,6 +60,8 @@
 }
 .center{
   font-size: 35px;
+  color: white;
+  text-shadow: 2px 2px 5px rgb(151, 2, 2), -2px -2px 5px rgb(0, 0, 197);
 }
 .right{
   display: none;

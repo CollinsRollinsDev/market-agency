@@ -6,7 +6,7 @@ const Header = () => {
     <section className={styles.header}>
       <div className={styles.left}>
         <Image
-          src="/logo.jpg"
+          src="/logo2.jpg"
           alt="Picture of the author"
           // width={500}
           // height={500}
