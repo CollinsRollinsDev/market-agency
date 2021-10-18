@@ -5,9 +5,13 @@
     display: flex;
     justify-content: space-between;
     padding: 0 2%;
+    position: fixed;
+    /* margin-bottom: 100px; */
+    z-index: 2;
     align-items: center;
     box-shadow: 3px 3px 7px rgb(18, 2, 153);
     margin-bottom: 8px;
+    background-color: white;
   }
 
   .left{
@@ -45,17 +49,54 @@
 .desktopRight{
     display: none;
 }
+.drop{
+    display: block;
+    min-height: 92vh !important;
+    width: 60vw;
+    background-color: rgb(83, 61, 204);
+    position: fixed;
+    top:8vh;
+    left: 0;
+    color:white;
+    z-index: 1;
+}
+.dropHead{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.menuContainer{
+    min-height: 200px;
+    width: 100%;
+    /* background-color: green; */
+    padding-top: 20px;
+    padding-left: 3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 20px;
+    font-weight:600;
+}
+.menuContainer div{
+    cursor: pointer;
+}
+.menuContainer div:active{  
+    opacity: 0;
+}
 /* desktop version */
 
 @media screen and (min-width: 1080px){
+    .drop{
+        display: none;
+    }
     .header{
         height: 100px;
         display: flex;
         justify-content: flex-start;
         column-gap: 25px;
       }
-
-      
   .left{
     height: 70px;
     width: 70px;

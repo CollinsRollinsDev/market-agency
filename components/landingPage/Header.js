@@ -1,7 +1,25 @@
 import styles from "./Header.module.css";
 import Image from "next/image";
+import {useState, useEffect} from 'react';
 
 const Header = () => {
+const [toggling, setToggling] = useState(false);
+
+const handleClick = () => {
+  !toggling ? setToggling(true) : setToggling(false)
+}
+
+const dropdown =  (
+  <section className={styles.drop}>
+  <div className={styles.dropHead}>Welcome,</div>
+  <section className={styles.menuContainer}>
+    <div>Home</div>
+    <div>Contact Us</div>
+  </section>
+</section>
+)
+
+
   return (
     <section className={styles.header}>
       <div className={styles.left}>
@@ -15,7 +33,7 @@ const Header = () => {
       </div>
       <div className={styles.center}>Florinastrong</div>
       <div className={styles.right}>
-        <svg
+        <svg onClick={handleClick}
           xmlns="http://www.w3.org/2000/svg"
           width="18"
           height="18"
@@ -28,6 +46,9 @@ const Header = () => {
         <div>Home</div>
         <div>Contact</div>
       </div>
+        {
+          toggling ? dropdown : null
+        }
     </section>
   );
 };
