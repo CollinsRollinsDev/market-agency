@@ -39,4 +39,43 @@
 .right svg:active{
     opacity: 0;
 }
+.desktopRight{
+    display: none;
+}
+/* desktop version */
 
+@media screen and (min-width: 1080px){
+    .header{
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 25px;
+      }
+
+      
+  .left{
+    height: 70px;
+    width: 70px;
+}
+.center{
+  font-size: 35px;
+}
+.right{
+  display: none;
+}
+.desktopRight{
+    display: flex;
+    width: 20%;
+    margin-left: 50%;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 17px;
+}
+.desktopRight div{
+    cursor: pointer;
+}
+.desktopRight div:active{
+    opacity: 0;
+}
+}

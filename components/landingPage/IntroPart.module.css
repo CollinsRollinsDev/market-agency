@@ -28,3 +28,32 @@
     position: relative;
     overflow: hidden;
 }
+
+@media screen and (min-width: 1080px){
+    .container{
+        height: 300px;
+        margin-top: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .boxes{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        column-gap: 20px;
+        font-size: 13px;
+        font-weight: 700;
+        color: whitesmoke;
+        padding: 2% 0;
+        position: relative;
+    }
+    .boxes .circled{
+        background-color: white;
+        height: 100px;
+        width: 120px;
+        border-radius: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    
+}

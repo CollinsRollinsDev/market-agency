@@ -1,4 +1,5 @@
 import styles from './PreBody.module.css';
+import Image from "next/image";
 
 
 const Prebody = () => {
@@ -30,9 +31,17 @@ const Prebody = () => {
                     </button>
                 </div>
             </div>
-            {/* <div className={styles.right}>
-                <div className={styles.imgHolder}></div>
-            </div> */}
+            <div className={styles.right}>
+                <div className={styles.imgHolder}>
+                <Image
+                    src="/leftImg.svg"
+                    alt="Picture of the author"
+                    // width={500}
+                    // height={500}
+                    layout="fill"
+                />
+                </div>
+            </div>
         </section>
     )
 }
