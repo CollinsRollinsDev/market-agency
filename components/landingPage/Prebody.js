@@ -25,11 +25,11 @@ const Prebody = () => {
                 <div className={styles.second}>
                     SEO and DIGITAL MARKETING AGENCY
                 </div>
-                <div className={styles.third}>
+                {/* <div className={styles.third}>
                     <button className={styles.btn}>
                         Try For Free!
                     </button>
-                </div>
+                </div> */}
             </div>
             <div className={styles.right}>
                 <div className={styles.imgHolder}>

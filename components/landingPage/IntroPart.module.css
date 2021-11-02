@@ -22,8 +22,8 @@
 }
 .boxes .circled{
     background-color: white;
-    min-height: 60px;
-    min-width: 120px;
+    min-height: 100px;
+    min-width: 100px;
     border-radius: 100%;
     position: relative;
     overflow: hidden;

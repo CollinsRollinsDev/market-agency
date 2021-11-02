@@ -20,11 +20,26 @@
     display: flex;
     align-items: center;
     cursor: pointer;
+    width: 300px;
+}
+.first div a{
+    margin-left: 5px;
+    cursor: pointer;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: blue;
+    text-align: center;
+    width: 100px !important;
+}
+.first div a:hover{
+    background-color: orange;
+    color: black;
+    font-weight: 700;
 }
 .first div:active{
     opacity: 0;
 }
-
 @media screen and (min-width: 1080px){
     .container{
         height: auto;
