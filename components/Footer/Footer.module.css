@@ -36,11 +36,22 @@
     background-color: blue;
     text-align: center;
     width: 100px !important;
+    outline: none;
+    text-decoration: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 .first div a:hover{
     background-color: orange;
     color: black;
     font-weight: 700;
+}
+.first div a:focus{
+    outline: none !important;
 }
 .first div:active{
     opacity: 0;
